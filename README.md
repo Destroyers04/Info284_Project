@@ -1,2 +1,2 @@
 # Info284_Project
-Semester Submission in Info 284
+<div align="center">Semester Submission in Info 284</div>
