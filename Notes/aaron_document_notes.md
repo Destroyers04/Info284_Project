@@ -52,9 +52,9 @@ Looked at the dataset quickly using pandas, these are my findings:
 #### Sample of the dataset
 
 This is what the dataset looks like:<br />
-<img src="./Images\sample1.png" alt="datasetimg1" width="400" height="400"/>
-<img src="./Images\sample2.png" alt="datasetimg2" width="400" height="400"/>
-<img src="./Images\sample3.png" alt="datasetimg3" width="400" height="400"/>
+<img src="./Images\sample1.png" alt="datasetimg1" width="400" height="200"/>
+<img src="./Images\sample2.png" alt="datasetimg2" width="400" height="200"/>
+<img src="./Images\sample3.png" alt="datasetimg3" width="400" height="200"/>
 
 ## Final and landing receipts
 
