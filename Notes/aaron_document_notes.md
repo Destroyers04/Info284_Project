@@ -20,7 +20,7 @@ In the section where they describe their methodology for linking catch data and 
 
 #### "Eining"
 
-This part just talks about what the data is based on. Most of the data stems from the [landing/final receipt.](#final-landing-receipts)
+This part just talks about what the data is based on. Most of the data stems from the [landing/final receipt.](#final-and-landing-receipts)
 
 #### "Datakvalitet" p.2
 
@@ -54,7 +54,7 @@ Looked at the dataset quickly using pandas, these are my findings:
 This is what the dataset looks like:
 ![datasetimg1](Notes\Images\sample1.png) ![datasetimg2](Notes\Images\sample2.png) ![datasetimg3](Notes\Images\sample3.png)
 
-## What are final and landing receipts {#final-landing-receipts}
+## Final and landing receipts
 
 - final and landing receipts are mandatory forms that's required be filled when a boat docks and unloads fish.
 - The goal of this practice is to ensure sustainability for wild maritime resources
