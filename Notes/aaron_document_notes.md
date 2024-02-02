@@ -1,10 +1,14 @@
 # Some notes while reading the docs and looking at the dataset
 
+https://www.fiskeridir.no/Tall-og-analyse/AApne-data/elektronisk-rapportering-ers (original dataset before it was edited by bjørnar)
+https://www.fiskeridir.no/Yrkesfiske/Registre-og-skjema/Fartoeyregisteret/api (api to find vessel register)
+https://www.fiskeridir.no/Tall-og-analyse/AApne-data/Fangstdata-seddel-koblet-med-fartoeydata (register for receipts)
+
 ## Finding relevant info from "Samansette driftsdata for fangst (setel) og fartøy"
 
 ### Introduction to document
 
-This document was last updated the 12.December in 2023, and it was written by [Randi S. Sletten Hopland](https://www.fiskeridir.no/Om-oss/Avdelinger-og-regioner/forvaltningsdivisjonen/statistikkseksjonen/Tove-Aasheim) and [Tove Aasheim](https://www.fiskeridir.no/Om-oss/Avdelinger-og-regioner/forvaltningsdivisjonen/statistikkseksjonen/Randi-Sofie-Sletten-Hopland). According to the document, this dataset sources its data from [the directorate of fisheries](https://www.fiskeridir.no/) final and landing [receipts register](#final-landing-receipts) and ship register.
+This document was last updated the 12.December in 2023, and it was written by [Randi S. Sletten Hopland](https://www.fiskeridir.no/Om-oss/Avdelinger-og-regioner/forvaltningsdivisjonen/statistikkseksjonen/Tove-Aasheim) and [Tove Aasheim](https://www.fiskeridir.no/Om-oss/Avdelinger-og-regioner/forvaltningsdivisjonen/statistikkseksjonen/Randi-Sofie-Sletten-Hopland). According to the document, this dataset sources its data from [the directorate of fisheries](https://www.fiskeridir.no/) final/landing receipts register and ship register.
 
 The dataset records all fishing activities conducted by Norwegian registered fishing boats as well as foreign vessels operating in Norwegian waters. It encompasses not only commercial fishing operations but also includes fishing activities undertaken for research, educational purposes, and recreational fishing with revenue intentions. The data is comprehensive, including both final receipts and landing receipts. As per the system, the landing receipts are recorded as the catch is sold and finalized in the final receipt. Over time, this process results in most of the landing receipts displaying a quantity of zero. Any unsold catches, represented by remaining quotas on these landing receipts, are those that haven't been sold for various reasons.
 
@@ -13,6 +17,42 @@ The dataset records all fishing activities conducted by Norwegian registered fis
 #### "Metode for kopling av fangstdata og fartøydata" p.1
 
 In the section where they describe their methodology for linking catch data and vessel data, they explain that the data from the landing receipt register and ship register are connected by comparing registration marks and radio call signs. It says that if the last catch data and vessels validity period are mismatched the vessels municipality, maximum length, gross tonnage, etc are undefined. I think we have to keep this in mind when preprocessing the data, when i printed the amount of gross tonnage (1969 and other) i got 71429 NaN values in 1969 and 230660 NaN. Meaning using this data we can figure out amount of fishing that doesn't match vessels validity period, this might be useful maybe? find where both, ship length, etc.
+
+#### "Eining"
+
+This part just talks about what the data is based on. Most of the data stems from the [landing/final receipt.](#final-landing-receipts)
+
+#### "Datakvalitet" p.2
+
+This part talks about the quality of data when it comes to catch data and vessel data.
+
+##### "Fangst"
+
+Seems like there is a variance in quality for catch data when it comes to locations and codes, this is due to new areas and stuff being added. (Might need to check [code list]())
+
+Not all parts of the forms are required to be filled by the fishermen, this means some categories will be missing a lot of data.
+
+##### "Fartøy"
+
+Didn't find anything relevant here. (Unsure though might be something important that i've missed)
+
+#### Rest of the document
+
+The rest of the document seems to just be about explaining different codes in the dataset, will refer to this when it is relevant to the dataset.
+
+### A quick look a the dataset
+
+Looked at the dataset quickly using pandas, these are my findings:
+
+- The dataset contains 305 434 different entries
+- We are working with 45 different features
+- Missing values seems to be left empty (NaN)
+- Contains floats, ints, objects
+
+#### Sample of the dataset
+
+This is what the dataset looks like:
+![datasetimg1](Notes\Images\sample1.png) ![datasetimg2](Notes\Images\sample2.png) ![datasetimg3](Notes\Images\sample3.png)
 
 ## What are final and landing receipts {#final-landing-receipts}
 
