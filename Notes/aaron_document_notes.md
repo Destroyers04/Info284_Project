@@ -51,7 +51,7 @@ Looked at the dataset quickly using pandas, these are my findings:
 
 #### Sample of the dataset
 
-This is what the dataset looks like:
+This is what the dataset looks like:<br />
 ![datasetimg1](Notes\Images\sample1.png) ![datasetimg2](Notes\Images\sample2.png) ![datasetimg3](Notes\Images\sample3.png)
 
 ## Final and landing receipts
