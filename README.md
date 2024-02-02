@@ -7,9 +7,4 @@
 
 <ul>
     <li>Pandas</li>
-    <li>NumPy</li>
-    <li>Scikit-learn</li>
-    <li>Tensorflow</li>
-    <li>Matplotlib</li>
-    <li>CUDA</li>
 </ul>
