@@ -5,6 +5,8 @@
 
 ## Libraries and dependencies used
 
+run <pip install -r requirement.txt> to install libraries.
+
 <ul>
     <li>Pandas</li>
 </ul>
