@@ -5,7 +5,7 @@
 
 ## Libraries and dependencies used
 
-run <pip install -r requirement.txt> to install libraries.
+run <pip install -r requirement.txt> in your virtual environment to install all libraries in use.
 
 <ul>
     <li>Pandas</li>
