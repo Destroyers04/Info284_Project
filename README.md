@@ -9,4 +9,5 @@ run <pip install -r requirement.txt> in your virtual environment to install all 
 
 <ul>
     <li>Pandas</li>
+    <li>Numpy</li>
 </ul>
