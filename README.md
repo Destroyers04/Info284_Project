@@ -9,4 +9,5 @@ run <pip install -r requirement.txt> to install libraries.
 
 <ul>
     <li>Pandas</li>
+    <li>Numpy</li>
 </ul>
