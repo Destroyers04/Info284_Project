@@ -10,10 +10,12 @@ run <pip install -r requirement.txt> in your virtual environment to install all 
 <ul>
     <li>Pandas</li>
     <li>Numpy</li>
+    <li>Matplot lib</li>
 </ul>
 
 ## TODO
 
+- make visuals from the dataset
 - Pick what we want to predict (Don't think we are supposed to predict two things)
 - find out which features we ned (log our visualization and process in picking each features and which we don't pick)
 - find out which models fits for our predictions (log why we pick different ml models why we chose them)
