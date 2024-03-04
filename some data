@@ -1,1 +1,29 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
+plt.figure(figsize=(10,6))
+sns.countplot(x='Species FAO (code)', hue='Gear FAO (code)', data=df)
+plt.xticks(rotation=100)
+plt.title('Count of Fish Species by Fish Equipment')
+plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+plt.show()
+
+
+# Stacked Bar Plot
+fish_equipment_counts = df.groupby(['Gear FAO (code)', 'Species FAO (code)']).size().unstack(fill_value=0)
+fish_equipment_counts.plot(kind='bar', stacked=True, figsize=(10, 6))
+plt.xticks(rotation=45)
+plt.title('Distribution of Fish Species by Fish Equipment')
+plt.xlabel('Fish Equipment')
+plt.ylabel('Count')
+plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+plt.show()
+
+
+# Heatmap
+plt.figure(figsize=(30,40))
+heatmap_data = df.groupby(['Species FAO (code)', 'Gear FAO (code)']).size().unstack(fill_value=0)
+sns.heatmap(heatmap_data, cmap='Reds', annot=True, fmt='d', square = True)
+plt.title('Heatmap of Fish Species and Fish Equipment')
+plt.show()
