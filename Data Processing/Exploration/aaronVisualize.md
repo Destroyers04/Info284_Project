@@ -2,8 +2,8 @@
 
 - Find out relevant features to include, visualize it to understand better. (done)
   - Include:
-    - Hovedart (Small Explanation)
-    - Redskap (explain)
+    - Hovedart
+    - Redskap
     - Rundvekt
     - Lengdegruppe
     - Hovedområde
@@ -13,9 +13,9 @@
     - Varighet
     - Tidspunkt
 
-- Look at outliers for each of the features you have chosen to include.
-- Pick 3 models that fits the features you have chosen to include.
-- Find out WHAT you have to do with the features you have chosen so that it can be used in the machine learning model.
+- Look at outliers for each of the features we have chosen to include. (1/5)
+- Pick 3 models that fits the features we have chosen to include.
+- Find out WHAT we have to do with the features we have chosen so that it can be used in our machine learning model.
 
 # Outlier Analysis Guidelines for Feature Exploration
 
@@ -67,15 +67,12 @@
 
 ## Tasks for Hejung Yu
 
-Please explore this feature of the dataset:
-(Look at my jupyter notebook to see how i expect it to be done)
+Please explore this feature of the dataset: Rundvekt
 
 ## Tasks for Tsz Ching
 
-Please explore this feature of the dataset:
-(Look at my jupyter notebook to see how i expect it to be done)
+Please explore this feature of the dataset: Redskap
 
 ## Tasks for Sverre-Emil
 
-Please explore this feature of the dataset:
-(Look at my jupyter notebook to see how i expect it to be done)
+Please explore this feature of the dataset: Hovedområde start
