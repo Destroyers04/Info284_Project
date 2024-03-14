@@ -1,6 +1,18 @@
 ## Get this done by 17.march
 
-- Find out relevant features to include, visualize it to understand better.
+- Find out relevant features to include, visualize it to understand better. (done)
+  - Include:
+    - Hovedart (Small Explanation)
+    - Redskap (explain)
+    - Rundvekt
+    - Lengdegruppe
+    - Hovedområde
+  
+  - Exclude:
+    - Trekkavstand
+    - Varighet
+    - Tidspunkt
+
 - Look at outliers for each of the features you have chosen to include.
 - Pick 3 models that fits the features you have chosen to include.
 - Find out WHAT you have to do with the features you have chosen so that it can be used in the machine learning model.
@@ -9,12 +21,10 @@
 
 ## Objective
 
-- The primary objective of this analysis is to explore and document findings related to outliers within a specific feature of our dataset. By examining outliers, we aim to understand their impact on the dataset and determine appropriate
-  strategies for handling them. This exploration involves identifying outliers, assessing their significance, and deciding on actions such as keeping, modifying, or removing these outliers.
+- The primary objective of this analysis is to explore and document findings related to outliers within a specific feature of our dataset. By examining outliers, we aim to understand their impact on the dataset and determine appropriate strategies for handling them. This exploration involves identifying outliers, assessing their significance, and deciding on actions such as keeping, modifying, or removing these outliers.
 
 ## Dataset Overview
 
-- Dataset: [Insert Dataset Name Here]
 - Feature of Interest: [Insert Feature Name Here]
 
 ## Steps for Outlier Analysis
