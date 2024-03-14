@@ -76,3 +76,7 @@ Please explore this feature of the dataset: Redskap
 ## Tasks for Sverre-Emil
 
 Please explore this feature of the dataset: Hovedområde start
+
+## Tasks for me
+
+Please explore this feature of the dataset: Hovedart FAO, Lengdegruppe
