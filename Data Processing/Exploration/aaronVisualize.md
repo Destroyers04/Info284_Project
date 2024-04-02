@@ -1,13 +1,15 @@
 ## Get this done by 17.march
 
 - Find out relevant features to include, visualize it to understand better. (done)
+
   - Include:
+
     - Hovedart
     - Redskap
     - Rundvekt
     - Lengdegruppe
     - Hovedområde
-  
+
   - Exclude:
     - Trekkavstand
     - Varighet
