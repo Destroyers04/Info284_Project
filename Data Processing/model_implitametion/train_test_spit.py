@@ -1,6 +1,6 @@
 # Just a temp file for the including the train test split for the learing modeles 
 # sow that we all are using the same metod/random_state
-# not done
+
 
 from sklearn.model_selection import train_test_split
 import pandas as pd
