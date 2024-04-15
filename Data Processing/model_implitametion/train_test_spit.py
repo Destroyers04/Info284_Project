@@ -18,7 +18,7 @@ except:
 
 
 
-dataset['bycatch'] = (dataset["Hovedart FAO"] == dataset["Art FAO"])
+dataset['Is_Bycatch'] = (dataset["Hovedart FAO"] == dataset["Art FAO"])
 
 # the rest down is not done
 X = dataset.drop(columns=["bycatch", "all othere colums exscept the features"]) 
