@@ -43,3 +43,8 @@ Week 14(Monday 1. - Friday 7. april 2024)
 ## DONE
 
 - Pick what we want to predict (Predicate by-catch)
+- find out which features we need (log our visualization and process in picking each features and which we don't pick)
+- make visuals of the features from the dataset
+- outlier handling
+- find out which models fits for our predictions (log why we pick different ml models why we chose them)
+- find out how we need to change our data so that it can be used for our models (log what type of processing we need to do)
