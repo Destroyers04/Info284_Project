@@ -11,6 +11,7 @@ run <pip install -r requirement.txt> in your virtual environment to install all 
     <li>Pandas</li>
     <li>Numpy</li>
     <li>Matplot lib</li>
+    <li>sklearn</li>
 </ul>
 
 ## TODO
